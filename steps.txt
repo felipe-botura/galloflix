@@ -1,0 +1,27 @@
+Configuração da conta local do GIT:
+
+git config --global user.name felipe-botura
+
+git config --global user.email felipebotura7@gmail.com
+
+Criar um projeto Aspnet MVC
+
+dotnet new mvc -o GalloFlix
+
+Criar arquivo solução
+
+dotnet new sln --name GalloFlix
+
+dotnet sln add GalloFlix\GalloFlix.csproj
+
+Executar o projeto
+dotnet run (só executa)
+dotnet watch run (executa e é editavel)
+
+Instalar pacotes no projeto
+    1 - Usar o site nuget.org e o dotnet CLI
+
+    dotnet add package Microsoft.EntityFrameworkCore --version 8.0.4
+
+    2 - Usar extensões do CODE como Nuget Gallery
+    ctrl + shift + p e digitar nuget
