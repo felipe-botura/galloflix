@@ -13,6 +13,6 @@ public class MovieGenre
 
     [Key, Column(Order = 2)]
     public byte GenreId { get; set; }
-    [ForeignKey("Genre")]
+    [ForeignKey("GenreId")]
     public Genre Genre { get; set; }
 }
